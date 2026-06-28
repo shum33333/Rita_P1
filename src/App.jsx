@@ -31,10 +31,15 @@ function App() {
           提升醫院經營效率與管理決策品質
         </p>
 
-        <div className="hero-buttons">
-          <button>閱讀文章</button>
-          <button>聯絡合作</button>
-        </div>
+<div className="hero-buttons">
+  <a href="#articles" className="hero-button">
+    閱讀文章
+  </a>
+
+  <a href="#contact" className="hero-button">
+    聯絡合作
+  </a>
+</div>
       </section>
     <section id="about" className="about">
       <h2>關於我</h2>
